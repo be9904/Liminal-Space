@@ -1,34 +1,12 @@
 fileFormatVersion: 2
-guid: 44d13a5b9a100c7438e21d4c5910a7ba
+guid: 8a48ec68fa394a44abd8c13ee9c49ae8
 ModelImporter:
   serializedVersion: 21202
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Face_1
-    second: {fileID: 2100000, guid: 2584d127e68ff9349afb6a9eba3c6eb2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Hands
-    second: {fileID: 2100000, guid: 97c7937d515d433458bc11f5b0fda785, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Limbs
-    second: {fileID: 2100000, guid: 82f259c8904055d40bc0b1d701452dc2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Shoe
-    second: {fileID: 2100000, guid: 3c1728e7ce0144f4b978caa32b13adde, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _Tex_Body
-    second: {fileID: 2100000, guid: 186111e741d256a44a987e400a175566, type: 2}
+      74: -4791504522942941401
+    second: Armature|Armature|mixamo.com|Layer0
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -101,7 +79,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
