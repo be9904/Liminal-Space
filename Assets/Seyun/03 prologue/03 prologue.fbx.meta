@@ -7,6 +7,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: 03 coin body
+    second: {fileID: 2100000, guid: 4ff6b28b0a114594781707b7fad13bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 coin entrance
+    second: {fileID: 2100000, guid: 24de7836aebc4004197aa1838e303a6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 coin tube
+    second: {fileID: 2100000, guid: 1982dc29ac8a10a44a41a87b1a3a2a64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 manhole square
+    second: {fileID: 2100000, guid: 2f402ee9f783ab9418e0a09571b5dffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Crystal_Core
     second: {fileID: 2100000, guid: a018ccbbbae6ed046a3edaff7ea2e070, type: 2}
   - first:
@@ -177,7 +197,7 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
