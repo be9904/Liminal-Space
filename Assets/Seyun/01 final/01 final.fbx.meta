@@ -52,6 +52,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: 05 entrance door
+    second: {fileID: 2100000, guid: 0b3c3032de9b07c42a5f36ffa17881c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: 05 entrance stair
     second: {fileID: 2100000, guid: 0699f281a341ee94b8dfd9b286050919, type: 2}
   - first:
