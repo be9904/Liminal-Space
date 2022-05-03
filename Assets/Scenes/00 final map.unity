@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c051fe5a20f72814f9643eb10ebbd2fc, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17733848, g: 0.22201097, b: 0.30424428, a: 1}
+  m_IndirectSpecularColor: {r: 0.5490521, g: 0.795813, b: 0.97286266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2355,6 +2355,100 @@ Transform:
   m_Father: {fileID: 5464574328692148707}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &221004195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221004197}
+  - component: {fileID: 221004196}
+  m_Layer: 0
+  m_Name: Step3_Light_updirect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &221004196
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221004195}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &221004197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221004195}
+  m_LocalRotation: {x: 0.06654464, y: -0.70396864, z: 0.06654464, w: 0.70396864}
+  m_LocalPosition: {x: -16.59832, y: 2.468823, z: -37.498234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 10.8, y: -90, z: 0}
 --- !u!1 &222457667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2970,6 +3064,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283568294}
   m_Mesh: {fileID: 4277946954088215538, guid: 19e518992ab09444799f08f53205c5b0, type: 3}
+--- !u!1 &291291475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 291291477}
+  - component: {fileID: 291291476}
+  m_Layer: 0
+  m_Name: Step3_Light_uppoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &291291476
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291291475}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 4.92
+  m_Range: 3.38
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.15
+    m_NormalBias: 0.4
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &291291477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291291475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.04, y: 3.16, z: -39.23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &293134161
 GameObject:
   m_ObjectHideFlags: 0
@@ -5419,7 +5607,7 @@ GameObject:
   - component: {fileID: 666369705}
   - component: {fileID: 666369707}
   - component: {fileID: 666369706}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: nike_ribbon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5740,6 +5928,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678608430}
   m_Mesh: {fileID: 6219245012083384628, guid: 19e518992ab09444799f08f53205c5b0, type: 3}
+--- !u!1 &679480510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 679480512}
+  - component: {fileID: 679480511}
+  m_Layer: 0
+  m_Name: Step3_Light_down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &679480511
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679480510}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 6.02
+  m_Range: 5.09
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.15
+    m_NormalBias: 0.4
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &679480512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679480510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.33, y: -5.15, z: -39.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &683151211
 GameObject:
   m_ObjectHideFlags: 0
@@ -9677,7 +9959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1069405310}
   - component: {fileID: 1069405311}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05 nike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9734,7 +10016,7 @@ GameObject:
   - component: {fileID: 1075800760}
   - component: {fileID: 1075800762}
   - component: {fileID: 1075800761}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: nike_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11859,7 +12141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1350069340}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: map 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12643,6 +12925,8 @@ GameObject:
   - component: {fileID: 1413619297}
   - component: {fileID: 1413619296}
   - component: {fileID: 1413619299}
+  - component: {fileID: 1413619301}
+  - component: {fileID: 1413619300}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12750,6 +13034,83 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1413619300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413619295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 25b1787d14cac0949850add64ff86e0e, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!114 &1413619301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413619295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 1413619298}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &1414543930
 GameObject:
   m_ObjectHideFlags: 0
@@ -17863,7 +18224,7 @@ GameObject:
   - component: {fileID: 2021714867}
   - component: {fileID: 2021714869}
   - component: {fileID: 2021714868}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: nike_sole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18442,7 +18803,7 @@ GameObject:
   - component: {fileID: 2079755887}
   - component: {fileID: 2079755889}
   - component: {fileID: 2079755888}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: nike_logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19289,7 +19650,7 @@ GameObject:
   - component: {fileID: 6951065443479156376}
   - component: {fileID: 2001557707294157175}
   - component: {fileID: 6096409683886651484}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19897,7 +20258,7 @@ GameObject:
   - component: {fileID: 6764284789688251909}
   - component: {fileID: 2166753986017009289}
   - component: {fileID: 8981318718122763341}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20010,7 +20371,7 @@ GameObject:
   - component: {fileID: 3562153107435512997}
   - component: {fileID: 4162542482497091441}
   - component: {fileID: 3366393401783347954}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_Entrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20196,7 +20557,7 @@ GameObject:
   - component: {fileID: 868307936923003751}
   - component: {fileID: 5229044330786376946}
   - component: {fileID: 4142234696409001955}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20214,7 +20575,7 @@ GameObject:
   - component: {fileID: 3174362019662745142}
   - component: {fileID: 4038542704165837414}
   - component: {fileID: 6902024639793880887}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21080,7 +21441,7 @@ GameObject:
   - component: {fileID: 2079728243176479001}
   - component: {fileID: 2544309173955654448}
   - component: {fileID: 7899430183718009166}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_Entranace_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21246,7 +21607,7 @@ GameObject:
   - component: {fileID: 7911334880048085654}
   - component: {fileID: 5694235683007826116}
   - component: {fileID: 6708902312454074990}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21834,7 +22195,7 @@ GameObject:
   - component: {fileID: 8583968812304432032}
   - component: {fileID: 4893197382592022391}
   - component: {fileID: 3119256033702458250}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21886,7 +22247,7 @@ GameObject:
   - component: {fileID: 4637355212078844564}
   - component: {fileID: 64160279330791492}
   - component: {fileID: 8631843873548270157}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_tray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23355,7 +23716,7 @@ GameObject:
   - component: {fileID: 7596834907767426148}
   - component: {fileID: 6032767113445425667}
   - component: {fileID: 5575377056211118696}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23760,7 +24121,7 @@ GameObject:
   - component: {fileID: 5831231268716637083}
   - component: {fileID: 8021440973237682794}
   - component: {fileID: 8171641944403177875}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_Entrance_Stair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24414,7 +24775,7 @@ GameObject:
   - component: {fileID: 7492005757804770063}
   - component: {fileID: 7641436088893996806}
   - component: {fileID: 7183894603468701579}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_Entrance_Stair_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24489,7 +24850,7 @@ GameObject:
   - component: {fileID: 7780555701258999462}
   - component: {fileID: 77087271315205590}
   - component: {fileID: 2171628275748559187}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_box_top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24507,7 +24868,7 @@ GameObject:
   - component: {fileID: 1844644501739200832}
   - component: {fileID: 1601697025084341818}
   - component: {fileID: 181285227244357655}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24541,7 +24902,7 @@ GameObject:
   - component: {fileID: 5061188281207448100}
   - component: {fileID: 3454272848134473134}
   - component: {fileID: 5657238043914679369}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26155,7 +26516,7 @@ GameObject:
   - component: {fileID: 7602466776614663663}
   - component: {fileID: 4896642456996395580}
   - component: {fileID: 3890767694556446014}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26386,7 +26747,7 @@ GameObject:
   - component: {fileID: 3934307653748712821}
   - component: {fileID: 4988053673694381577}
   - component: {fileID: 7662208854772030527}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26419,7 +26780,7 @@ GameObject:
   - component: {fileID: 6007319252624671765}
   - component: {fileID: 2594553959581486302}
   - component: {fileID: 2613363367229740569}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26535,7 +26896,7 @@ GameObject:
   - component: {fileID: 2675198628600084588}
   - component: {fileID: 1946969383326316394}
   - component: {fileID: 3348360731293647558}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28073,7 +28434,7 @@ GameObject:
   - component: {fileID: 5483784835019917206}
   - component: {fileID: 6349367124284824534}
   - component: {fileID: 5391148844436144840}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28518,7 +28879,7 @@ GameObject:
   - component: {fileID: 8743848254901147256}
   - component: {fileID: 7853468753544293226}
   - component: {fileID: 7381854110844138072}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 05_stair_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
