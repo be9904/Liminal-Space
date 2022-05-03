@@ -191,7 +191,7 @@ Material:
     - _Outline_Width: 2.19
     - _Parallax: 0.02
     - _RimLight: 1
-    - _RimLight_FeatherOff: 0
+    - _RimLight_FeatherOff: 1
     - _RimLight_InsideMask: 0.313
     - _RimLight_Power: 0.5
     - _Rotate_EmissiveUV: 0
