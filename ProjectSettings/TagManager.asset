@@ -18,13 +18,13 @@ TagManager:
   - Step2
   - Step3
   - Step4
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Coin
+  - Step2_right
+  - Step2_left
+  - Step2_top
+  - Step2_bottom
+  - Step2_front
+  - Step2_back
   - 
   - 
   - 
