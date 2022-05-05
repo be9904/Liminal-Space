@@ -1,3 +1,4 @@
 river_animation.fbx filter=lfs diff=lfs merge=lfs -text
 Assets/Yerin/Video/가완성본.mp4 filter=lfs diff=lfs merge=lfs -text
 Render/liminal_space_trailer_final.mp4 filter=lfs diff=lfs merge=lfs -text
+Assets/Recordings/가완성본.mp4 filter=lfs diff=lfs merge=lfs -text
